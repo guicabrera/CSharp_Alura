@@ -10,9 +10,7 @@ namespace s1PrimeiroProjeto
     {
         static void Main(string[] args)
         {
-            Encoding enc = Encoding.GetEncoding("us-ascii",
-                                          new EncoderExceptionFallback(),
-                                          new DecoderExceptionFallback());
+           
             Console.WriteLine(@"  _________           __         __________                        ____   ____.__            .___      ");
             Console.WriteLine(@" /   _____/ ____     |__|____    \______   \ ____   _____          \   \ /   /|__| ____    __| _/____  ");
             Console.WriteLine(@" \_____  \_/ __ \    |  \__  \    |    |  _// __ \ /     \   ______ \   Y   / |  |/    \  / __ |/  _ \ ");
