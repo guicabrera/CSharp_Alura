@@ -10,7 +10,15 @@ namespace s1PrimeiroProjeto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Encoding enc = Encoding.GetEncoding("us-ascii",
+                                          new EncoderExceptionFallback(),
+                                          new DecoderExceptionFallback());
+            Console.WriteLine(@"  _________           __         __________                        ____   ____.__            .___      ");
+            Console.WriteLine(@" /   _____/ ____     |__|____    \______   \ ____   _____          \   \ /   /|__| ____    __| _/____  ");
+            Console.WriteLine(@" \_____  \_/ __ \    |  \__  \    |    |  _// __ \ /     \   ______ \   Y   / |  |/    \  / __ |/  _ \ ");
+            Console.WriteLine(@" /        \  ___/    |  |/ __ \_  |    |   \  ___/|  Y Y  \ /_____/  \     /  |  |   |  \/ /_/ (  <_> )");
+            Console.WriteLine(@"/_______  /\___  >\__|  (____  /  |______  /\___  >__|_|  /           \___/   |__|___|  /\____ |\____/ ");
+            Console.WriteLine(@"        \/     \/\______|    \/          \/     \/      \/                            \/      \/       ");
             Console.WriteLine("Tecle enter para finalizar");
             Console.ReadLine();
         }
