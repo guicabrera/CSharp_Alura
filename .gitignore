@@ -1,7 +1,7 @@
-s1\s1PrimeiroProjeto\.vs
-s1\s1PrimeiroProjeto\bin
-s1\s1PrimeiroProjeto\obj
-s1\s1PrimeiroProjeto\Properties
+s1\s1PrimeiroProjeto\.vs\
+s1\s1PrimeiroProjeto\bin\
+s1\s1PrimeiroProjeto\obj\
+s1\s1PrimeiroProjeto\Properties\
 s1\s1PrimeiroProjeto\*.config
 s1\s1PrimeiroProjeto\*.csproj
 s1\s1PrimeiroProjeto\*.sln
