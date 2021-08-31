@@ -38,8 +38,24 @@ namespace ConsoleApp1
                 Console.WriteLine("Verification is true");
             }
 
-            //scope of var's
+            //scope of var's, inside an if the vars declareted on this scope will not be available outside
 
+            //switch conditional
+
+            int x = 5;
+
+            int a = 4;
+            switch(x)
+            {
+                case 4:
+                    Console.WriteLine("Here we have the value from A: "+a);
+                    break;
+                case 5:
+                    Console.WriteLine("Here we have the value from A = "+a);
+                    break;
+
+            }
+           
 
             Console.ReadLine();
         }
