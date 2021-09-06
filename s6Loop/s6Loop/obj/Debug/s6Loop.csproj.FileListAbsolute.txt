@@ -1,7 +1,0 @@
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\bin\Debug\s6Loop.exe.config
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\bin\Debug\s6Loop.exe
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\bin\Debug\s6Loop.pdb
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\obj\Debug\s6Loop.csproj.AssemblyReference.cache
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\obj\Debug\s6Loop.csproj.CoreCompileInputs.cache
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\obj\Debug\s6Loop.exe
-C:\Users\Guilherme Cabrera\OneDrive - Universidade Guarulhos\Matérias\Computação\C Sharp\s6Loop\s6Loop\obj\Debug\s6Loop.pdb
