@@ -1,8 +1,11 @@
 ﻿using System;
+using myBank;
+//here we can see how to use the namespace feature to define an specific scope to the project
+
 public class bankAccount
 {
     //its possible gives a var a value to be started
-    public string baName;
+    public customers customer;
     public int baNumber;
     public int baAgency;
     private double baLimit = 1000;
@@ -24,7 +27,7 @@ public class bankAccount
         Console.WriteLine("Operation done successfully");
         return true;
     }
-    
+
     public void deposit(double valueDeposit)
     {
         this.baBalance += valueDeposit;
@@ -32,11 +35,11 @@ public class bankAccount
 
     public bool transfer(double valueTransfer, bankAccount newAcc)
     {
-        if(!this.withdraw(valueTransfer))
+        if (!this.withdraw(valueTransfer))
         {
             return false;
         }
-        
+
         newAcc.baBalance += valueTransfer;
         return true;
     }
@@ -46,3 +49,4 @@ public class bankAccount
         return this.baBalance;
     }
 }
+
