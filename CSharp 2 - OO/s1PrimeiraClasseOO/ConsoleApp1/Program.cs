@@ -20,9 +20,12 @@ namespace ConsoleApp1
             Console.WriteLine("-------------------------------------------------------------------------");
             Console.WriteLine("Agency: " + acc1.baAgency);
             Console.WriteLine("Number: " + acc1.baNumber);
+            acc1.withdraw(500);
             Console.WriteLine("Balance: " + acc1.baBalance);
             Console.WriteLine("Name: " + acc1.baName);
             Console.WriteLine("-------------------------------------------------------------------------");
+
+            //when we are using objects, we have the difference of object values (when compared objects to objects) because each object has a reference number
             Console.ReadLine();
         }
     }
