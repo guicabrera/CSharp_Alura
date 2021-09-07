@@ -8,9 +8,21 @@ namespace ConsoleApp1
         {
 
             //Estrutura de classe --> object has been created on other file (contaCorrente.cs)
-            object acc1 = new bankAccount();
+            bankAccount acc1 = new bankAccount();
             
+            //values to properties on class
+            acc1.baAgency = 155;
+            acc1.baBalance = 5000;
+            acc1.baName = "Guilherme Provencio";
+            acc1.baNumber = 59667;
 
+
+            Console.WriteLine("-------------------------------------------------------------------------");
+            Console.WriteLine("Agency: " + acc1.baAgency);
+            Console.WriteLine("Number: " + acc1.baNumber);
+            Console.WriteLine("Balance: " + acc1.baBalance);
+            Console.WriteLine("Name: " + acc1.baName);
+            Console.WriteLine("-------------------------------------------------------------------------");
             Console.ReadLine();
         }
     }
