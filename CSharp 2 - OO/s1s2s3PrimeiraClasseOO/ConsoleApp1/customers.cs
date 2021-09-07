@@ -14,47 +14,12 @@ namespace myBank
         private string customerCountry;
         private string customerAddress;
 
-        public void set_customerName(string name)
-        {
-            this.customerName = name;
-        }
-        public void set_customerDocument(string document)
-        {
-            this.customerDocument = document;
-        }
-        public void set_customerBirthday(string birthday)
-        {
-            this.customerBirthday = birthday;
-        }
-        public void set_customerCountry(string country)
-        {
-            this.customerCountry = country;
-        }
-        public void set_customerAddress(string address)
-        {
-            this.customerAddress = address;
-        }
+        public string CustomerName { get; set; }
+        public string CustomerDocument { get; set; }
+        public string CustomerCountry { get; set; }
+        public string CustomerBirthday { get; set; }
+        public string CustomerAddess { get; set; }
 
-        public string get_customerName()
-        {
-            return this.customerName;
-        }
-        public string get_customerDocument()
-        {
-            return this.customerDocument;
-        }
-        public string get_ccustomerBirthday()
-        {
-            return this.customerBirthday;
-        }
-        public string get_customerCountry()
-        {
-            return this.customerCountry;
-        }
-        public string get_customerAddress()
-        {
-            return this.customerAddress;
-        }
     }
 
 

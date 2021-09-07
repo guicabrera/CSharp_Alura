@@ -5,12 +5,16 @@ using myBank;
 public class bankAccount
 {
     //its possible gives a var a value to be started
-    public customers customer;
-    public int baNumber;
-    public int baAgency;
+    public customers customer = new customers();
+    private int baNumber;
+    private int baAgency;
     private double baLimit = 1000;
     //here when you create a new bankAccount the account will have 500$
     private double baBalance = 500;
+
+
+    public int BaNumber { get; set; }
+    public int BaAgency { get; set; }
 
 
 

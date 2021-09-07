@@ -40,14 +40,15 @@ namespace myBank
 
             Console.WriteLine("---------------------------------------------------------------------------------------------------------");
             customers jose = new customers();
-            jose.set_customerName("jose");
-            jose.set_customerAddress("Rua Balalaika do São Juao");
-            jose.set_customerBirthday("24/08/2021");
-            jose.set_customerDocument("509.659.555-85");
+            jose.CustomerName="jose";
+            jose.CustomerAddess = "Rua Balalaika do São Juao";
+            jose.CustomerBirthday = "24/08/2021";
+            jose.CustomerDocument = "509.659.555-85";
 
 
             acc1.customer = jose;
-
+            acc1.BaAgency = 155;
+            acc1.BaNumber = 59667;
 
             Console.WriteLine("---------------------------------------------------------------------------------------------------------");
             Console.ReadLine();
